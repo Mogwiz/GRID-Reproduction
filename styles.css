@@ -107,6 +107,48 @@ button {
     padding: 15px 30px;
 }
 
-#latest {
+#latestnews {
     width: 162px;
+    margin: 100px 0px 50px 350px;
+}
+
+#latestnews > h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#latestnews > hr {
+    transform: translate(25%);
+    font-weight: bold;
+}
+
+.pics {
+    width: 386px;
+    height: 269px;
+    object-fit: cover;
+}
+
+#imgs {
+    display: grid;
+    grid-template-columns: 387px 1fr 1fr;
+    grid-template-rows: 269px 269px;
+    min-height: 600px;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+#biggerpic {
+    object-fit: cover;
+    width: 387px;
+    height: 559px;
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+#pic4 {
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+#pic5 {
+    grid-area: 2 / 3 / 2 / 3;
 }
